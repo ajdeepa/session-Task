@@ -1,0 +1,40 @@
+1.Write a JavaScript function to generate an array between two integers of 1 step length.
+Input :
+console.log(range(3, 7));
+Expected Output:
+[3,4, 5, 6, 7]
+Program code:
+//Create a varaible called arr and assign it an empty array
+var arr=[]
+//to create a function called range that takes two parameter,a,b
+function range(a,b){
+//to create a for loop that iterates from a to b
+    for(var i=a;i<=b;i++){
+//to push the values of i to the array arr
+    arr.push(i)
+}
+//to return the array arr
+return arr;
+}
+//to print the values of arr in the console  
+    console.log(range(3,7));
+2.Write a JavaScript function to generate an array between two integers of 1 step length.
+Input :
+console.log(range(-4, 7));
+Expected Output:
+[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+Program code:
+//Create a varaible called arr and assign it an empty array
+var arr=[]
+//to create a function called range that takes two parameter,a,b
+function range(a,b){
+//to create a for loop that iterates from a to b
+    for(var i=a;i<=b;i++){
+//to push the values of i to the array arr
+    arr.push(i)
+}
+//to return the array arr
+return arr;
+}
+//to print the values of arr in the console  
+    console.log(range(-4,7));
